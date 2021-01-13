@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Akkshay Lawrence's Site</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +16,6 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
-
       <Footer />
     </div>
   )
