@@ -1,4 +1,8 @@
 module.exports = {
+  variants: {
+    flexGrow: ['responsive'],
+    alignItems: ['responsive']
+  },
   corePlugins: {
     preflight: false,
   },
