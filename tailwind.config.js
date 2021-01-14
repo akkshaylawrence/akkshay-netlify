@@ -1,18 +1,14 @@
 module.exports = {
-  variants: {
-    flexGrow: ['responsive'],
-    alignItems: ['responsive']
-  },
   corePlugins: {
     preflight: false,
   },
   purge: {
     content: [
-      './pages/*.js',
-      './pages/**/*.js',
-      './pages/**/**/*.js',
-      './pages/**/**/**/*.js',
-      './Components/*.js'
+      './pages/*.{js,jsx}',
+      './pages/**/*.{js,jsx}',
+      './pages/**/**/*.{js,jsx}',
+      './pages/**/**/**/*.{js,jsx}',
+      './components/*.{js,jsx}'
     ]
   },
   darkMode: 'class',
