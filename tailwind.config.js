@@ -3,7 +3,6 @@ module.exports = {
     preflight: false,
   },
   purge: {
-    enabled: process.env.NODE_ENV === "production",
     content: [
       './pages/*.js',
       './pages/**/*.js',

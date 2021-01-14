@@ -4,7 +4,7 @@ export default function Header() {
       <div className="flex-grow">
         <img src={"/adithi.png"} height={80} width={80} alt={"/adithi.png"}/>
       </div>
-      <div className="text-gray-800"><h3>#screwperfect</h3></div>
+      <div className="flex-none text-gray-800"><h3>#screwperfect</h3></div>
     </div>
   );
 }

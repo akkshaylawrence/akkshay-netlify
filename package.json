@@ -1,5 +1,5 @@
 {
-  "name": "next-netlify-starter",
+  "name": "akkshay-netlify",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "@sentry/react": "^5.30.0",
+    "@sentry/tracing": "^5.30.0",
     "autoprefixer": "^10.2.1",
     "next": "10.0.4",
     "postcss": "^8.2.4",
