@@ -15,18 +15,13 @@ module.exports = {
   theme: {
     fontFamily: {
       body: [
-        "Lato",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Oxygen",
-        "Ubuntu",
-        "Cantarell",
-        "Open Sans",
-        "Helvetica Neue",
-        "sans-serif",
+        'Roboto Mono',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        'Segoe UI',
+        'sans-serif',
       ],
+      heading: ['Roboto Slab']
     },
   }
 };
